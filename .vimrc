@@ -84,3 +84,9 @@ map <C-k> <C-w>k
 map <C-l> <C-w>l
 "defaults directory to parent of current file
 autocmd BufEnter * lcd %:p:h
+filetype plugin indent on
+" On pressing tab, insert 4 spaces
+set expandtab
+set softtabstop=0 noexpandtab
+set ts=4 sw=4
+
